@@ -1,11 +1,11 @@
 ผลจากการรันคำสั่งในบรรทัด * คืออะไร
 
 ```js
-let arr = ["a", "b"];
+const arr = ["a", "b"];
 
 arr.push(function() {
   alert(this);
 })
 
-arr[2](); // *
+arr[2](); // * alert a,b,function()
 ```
